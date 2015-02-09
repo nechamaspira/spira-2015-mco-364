@@ -28,7 +28,7 @@ public class Smile extends JFrame {
 				while (true) {
 					smile.repaint();
 					try {
-						Thread.sleep(1000);//gonna stop thread and 100 milisecond which is 1 second
+						Thread.sleep(50);//gonna stop thread and 100 milisecond which is 1 second
 					} catch (InterruptedException e) {
 						e.printStackTrace();
 					}
