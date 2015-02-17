@@ -8,7 +8,7 @@ import javax.swing.JFrame;
 public class Smile extends JFrame {
 
 	public Smile() {
-		setSize(800, 600);
+		setSize(400,400);
 		setTitle("SMILE :)");
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -28,7 +28,7 @@ public class Smile extends JFrame {
 				while (true) {
 					smile.repaint();
 					try {
-						Thread.sleep(10);// gonna stop thread and 100 milisecond
+						Thread.sleep(40);// gonna stop thread and 100 milisecond
 											// which is 1 second
 					} catch (InterruptedException e) {
 						e.printStackTrace();
