@@ -93,6 +93,7 @@ public class SnakeFrame extends JFrame implements KeyListener {
 				direc = Direction.NO_DIRECTION;
 				world.createSnake();
 			}
+			//SnakeFrame.main(null);
 			break;
 
 		}

@@ -37,7 +37,7 @@ public class Segmant {
 	}
 
 	public boolean equals(Segmant seg) {
-		if (x == (seg.getX()) && y == (seg.getY())) {
+		if (x == seg.getX() && y == seg.getY()) {
 			return true;
 		} else {
 			return false;
