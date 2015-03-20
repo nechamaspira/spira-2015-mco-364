@@ -3,9 +3,7 @@ package spira.snake;
 import java.awt.Color;
 import java.awt.Graphics;
 
-import javax.swing.JComponent;
-
-public class World extends JComponent {
+public class World {
 
 	private final int boxSize = 15;
 	private final int gridWidth = 40;

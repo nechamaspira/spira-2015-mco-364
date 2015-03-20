@@ -17,6 +17,7 @@ public class WorldComponent extends JComponent {
 		return world;
 	}
 
+	
 	protected void paintComponent(Graphics g) {
 		super.paintComponent(g);
 
