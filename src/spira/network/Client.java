@@ -5,6 +5,8 @@ import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.net.Socket;
 import java.net.UnknownHostException;
+
+import org.apache.commons.io.IOUtils;
 //one socket and thread that will read from socket, sends via output stream of the socket, 
 public class Client {
 //the client sends messages
@@ -46,13 +48,13 @@ public class Client {
 		}
 
 		finally {
-			// IOUtils.closeQuietly(socket); //must include the jarfile of
+			 IOUtils.closeQuietly(socket); //must include the jarfile of
 			// apachi before use it
-			try {
+			/*try {
 				socket.close();
 			} catch (IOException e1) {
 				e1.printStackTrace();
-			}
+			}*/
 		}
 	}
 }
