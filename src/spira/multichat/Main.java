@@ -16,8 +16,8 @@ public class Main {
 						client1.setVisible(true);
 					}
 				};
+				
 				thread.start();
-
 			}
 		
 	}
