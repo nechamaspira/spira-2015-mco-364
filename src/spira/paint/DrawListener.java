@@ -21,6 +21,7 @@ public class DrawListener extends BrushListener {
 	private Point p2;
 	private String option;
 	
+	
 	//private int thicknes;
 
 	public DrawListener(Canvas canvas) {
